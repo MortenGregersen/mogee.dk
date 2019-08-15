@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<article class="app">
+
+  <h1>
+  	{{ page.title }}
+  	{% if page.payoff %}
+  		 - {{ page.payoff }}
+  	{% endif %}
+  </h1>
+  {% if page.id %}
+  	<img src="/images/app-headers/{{ page.id }}.png" />
+  {% endif %}
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  {% if page.appstorelink %}
+    <a href="{{ page.appstorelink }}" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/images/badges/da-dk/badge_appstore-lrg.svg) no-repeat;width:165px;height:40px;"></a>
+  {% endif %}
+</article>
