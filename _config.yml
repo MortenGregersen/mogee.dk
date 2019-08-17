@@ -1,0 +1,9 @@
+title: MoGee.dk
+email: morten@mogee.dk
+description: ""
+baseurl: ""
+url: "https://mogee.dk"
+twitter_username: mortengregersen
+github_username:  mortengregersen
+markdown: kramdown
+theme: minima
