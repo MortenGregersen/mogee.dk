@@ -4,7 +4,7 @@ email: morten@moge.dk
 url: https://mogee.dk
 description: "Apps til alle og enhver!"
 keywords: "apps"
-skills: "iOS developer - Graphic Artist - User Experience Designer"
+tagline: "Apps til alle og enhver!"
 meta_author: Morten Bjerg Gregersen
 
 # Google webmaster tools
@@ -27,10 +27,11 @@ footer:
   social: Get in touch
   credits: Credits
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/MortenGregersen
+  - title: linkedin
+    url: https://www.linkedin.com/in/mortengregersen
   - title: facebook
     url: https://www.facebook.com/MoGee.dk
   - title: stack-overflow
