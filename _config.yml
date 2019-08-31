@@ -20,32 +20,21 @@ color:
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
 
-# Footer settings
 footer:
   copyright: MoGee
-  location: Silkeborg, Denmark
   social: Get in touch
-  credits: Credits
 
 social:
   - title: twitter
     url: http://twitter.com/MortenGregersen
-  - title: linkedin
-    url: https://www.linkedin.com/in/mortengregersen
   - title: facebook
     url: https://www.facebook.com/MoGee.dk
-  - title: stack-overflow
-    url: https://stackoverflow.com/users/687540/morten-bjerg-gregersen
+  - title: linkedin
+    url: https://www.linkedin.com/in/mortengregersen
   - title: github
     url: http://github.com/MortenGregersen
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: Rudbølvej 5
-  - line: 8600 Silkeborg
-
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+  - title: stack-overflow
+    url: https://stackoverflow.com/users/687540/morten-bjerg-gregersen
 
 # Build settings
 markdown: kramdown
