@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    background-color: #{{ site.color.secondary }};
 }
 
 p {
@@ -22,7 +23,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: white;
 }
 
 h1,
@@ -79,17 +80,22 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
-header {
+nav {
+    padding: 20px 0;
+    font-size: 1.5em;
     text-align: center;
+    background-color: #{{ site.color.secondary }};
+}
+
+.logo-tagline {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: white;
     color: #{{ site.color.primary }};
 }
 
-header .container {
-    padding-top: 50px;
-    padding-bottom: 30px;
-}
-
-header img {
+.logo-tagline img {
     display: block;
     margin: 0 auto 20px;
 }
@@ -112,6 +118,10 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+}
+
+#products {
+    background-color: white;
 }
 
 #products .product {
