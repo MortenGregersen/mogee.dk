@@ -23,7 +23,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: white;
+    color: #{{ site.color.primary }};
 }
 
 h1,
@@ -84,7 +84,6 @@ nav {
     padding: 20px 0;
     font-size: 1.5em;
     text-align: center;
-    background-color: #{{ site.color.secondary }};
 }
 
 .logo-tagline {
@@ -98,11 +97,6 @@ nav {
 .logo-tagline img {
     display: block;
     margin: 0 auto 20px;
-}
-
-section h2 {
-    margin: 0;
-    font-size: 3em;
 }
 
 section.success {
