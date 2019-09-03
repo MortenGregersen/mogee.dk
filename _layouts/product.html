@@ -3,7 +3,7 @@
     {% include head.html %}
     <body id="page-top" class="index">
         {% include nav.html %}
-        <div style="padding: 20px 0; background-color: white">
+        <div style="padding: 20px 20px; background-color: white">
             <div class="container">
                 <div class="row">
                     <section>
@@ -12,7 +12,7 @@
                         <p>{{ page.subtitle }}</p>
                         {% endif %}
                         {% if page.image %}
-                        <img src="/img/products/{{ page.image }}" />
+                        <img src="/img/products/{{ page.image }}" alt="" style="width: 100%" />
                         {% endif %}
                         <p>{{ page.description }}</p>
                     </section>

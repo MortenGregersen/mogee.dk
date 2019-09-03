@@ -104,13 +104,21 @@ section.success {
     background: #{{ site.color.primary }};
 }
 
-@media(max-width:767px) {
-    section {
-        padding: 75px 0;
-    }
+p < img {
+    text-align: center;
+}
 
-    section.first {
-        padding-top: 75px;
+img#me {
+    width: 250px;
+    margin: 0px 0px 10px 10px;
+    float: right;
+}
+
+@media(max-width:767px) {
+    img#me {
+        float: none;
+        text-align: center;
+        margin: 0;
     }
 }
 
