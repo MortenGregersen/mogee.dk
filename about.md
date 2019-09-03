@@ -1,9 +1,10 @@
 ---
 layout: about
 ---
-<img src="/img/Morten.jpg" style="width: 250px; margin: 0px 0px 10px 10px; float: right" />
 
 # Om MoGee
+
+<img src="/img/Morten.jpg" id="me" alt="Morten i San Francisco" />
 
 Hej! Jeg hedder Morten Bjerg Gregersen, og det er mig, der står bag MoGee. MoGee er min hobby-virksomhed, hvor jeg bl.a. udvikler apps til mindre virksomheder og foreninger. Derudover udvikler jeg også apps, som jeg selv eller venner har behov for.
 
@@ -25,7 +26,9 @@ I januar 2016 holdt min <a href="https://www.linkedin.com/in/marianne-gadegaard-
 
 Vores oplæg på <a href="http://www.capgeminisogeti.dk/udforsk/events/testexpo">__TestExpo 2016__</a> blev ikke optaget på video, men da der var stor efterspørgslen på en video af oplægget, blev vi inviteret til at holde oplægget endnu en gang. Denne gang blev det holdt på deres <a href="http://www.capgeminisogeti.dk/udforsk/events/testingtuesday/">__Testing Tuesday__</a> i juni 2016. Det blev optaget, og videoen er tilgængelig på YouTube:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Iyy47neEICo" frameborder="0" allowfullscreen></iframe>
+<div style="display: flex; justify-content: center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Iyy47neEICo" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Tidligere erfaring (Huge Lawn - Miracle Apps / Miracle Mobile)
 
