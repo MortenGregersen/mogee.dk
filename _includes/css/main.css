@@ -114,6 +114,10 @@ img#me {
     float: right;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 @media(max-width:767px) {
     img#me {
         float: none;
